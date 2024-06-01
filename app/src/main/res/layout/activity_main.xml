@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/eTPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Ask Me"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/SubmitBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/ResultView"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        />
+</LinearLayout>
